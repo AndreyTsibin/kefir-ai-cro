@@ -958,13 +958,14 @@ html, body {
   border-radius: 16px;
   padding: var(--sp-lg) var(--sp-lg);
   flex: 1;
-  max-width: clamp(360px, 38vw, 560px);
-  min-width: clamp(300px, 30vw, 460px);
+  max-width: clamp(360px, 40vw, 580px);
+  min-width: clamp(300px, 32vw, 480px);
   text-align: left;
+  overflow: hidden;
 }
 
 .costs-col-title {
-  font-size: var(--fs-large);
+  font-size: var(--fs-body);
   font-weight: 600;
   margin-bottom: var(--sp-md);
   color: var(--accent);
@@ -984,13 +985,13 @@ html, body {
 }
 
 .cost-label {
-  font-size: var(--fs-small);
+  font-size: var(--fs-label);
   color: var(--text-secondary);
   white-space: nowrap;
 }
 
 .cost-value {
-  font-size: var(--fs-small);
+  font-size: var(--fs-label);
   font-weight: 600;
   color: var(--text-primary);
   text-align: right;
