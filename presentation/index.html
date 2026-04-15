@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Платформа самоадаптирующихся лендингов</title>
+
+  <!-- Inter Font (local) -->
+  <link rel="stylesheet" href="vendor/inter.css">
+
+  <!-- Swiper.js CSS (local) -->
+  <link rel="stylesheet" href="vendor/swiper-bundle.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Slide number indicator -->
+  <div class="slide-number">
+    <span class="slide-current">01</span> / <span class="slide-total">12</span>
+  </div>
+
+  <!-- Logo -->
+  <div class="logo-text">Kefir <span class="logo-accent">AI-CRO</span></div>
+
+  <!-- Main Swiper -->
+  <div class="swiper main-swiper">
+    <div class="swiper-wrapper">
+
+      <!-- ==================== SLIDE 1: Title ==================== -->
+      <div class="swiper-slide slide-title">
+        <div class="slide-content">
+          <div class="title-animation">
+            <div class="pulse-line">
+              <svg viewBox="0 0 400 60" class="heartbeat-svg">
+                <polyline class="heartbeat-line" points="0,30 80,30 100,30 120,5 140,55 160,30 180,30 260,30 280,30 300,5 320,55 340,30 360,30 400,30" fill="none" stroke="#00B4FF" stroke-width="2.5"/>
+              </svg>
+            </div>
+          </div>
+          <h1 class="main-title animate-item">Платформа<br>самоадаптирующихся<br>лендингов</h1>
+          <p class="main-subtitle animate-item">AI-маркетолог на автопилоте.<br>Реклама дешевле, заявок больше. Без новых людей.</p>
+          <div class="author animate-item">Цибин Андрей, веб-разработчик</div>
+        </div>
+      </div>
+
+      <!-- ==================== SLIDE 2: Problem - Scale ==================== -->
+      <div class="swiper-slide slide-scale">
+        <div class="slide-content">
+          <h2 class="slide-heading animate-item">Наши цифры</h2>
+          <div class="stats-grid">
+            <div class="stat-card animate-item">
+              <div class="stat-number" data-target="5000" data-suffix="+">0</div>
+              <div class="stat-label">сайтов по России и СНГ</div>
+            </div>
+            <div class="stat-card animate-item">
+              <div class="stat-number" data-target="15">0</div>
+              <div class="stat-label">разработчиков</div>
+            </div>
+            <div class="stat-card animate-item">
+              <div class="stat-number" data-target="40" data-prefix="~">0</div>
+              <div class="stat-label">специалистов по рекламе</div>
+            </div>
+          </div>
+          <div class="stat-equation animate-item">
+            <span class="eq-highlight">= 1 разработчик на 333 сайта</span>
+          </div>
+          <div class="slide-conclusion animate-item">
+            <p>Ручная оптимизация каждого сайта <span class="text-red">физически невозможна</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==================== SLIDE 3: Analogy ==================== -->
+      <div class="swiper-slide slide-analogy">
+        <div class="slide-content">
+          <h2 class="slide-heading animate-item">Представьте магазин на улице</h2>
+          <div class="analogy-steps">
+            <div class="analogy-step animate-item" data-delay="1">
+              <div class="analogy-visual">
+                <div class="shop-sign sign-bad">Ремонт телефонов</div>
+                <div class="analogy-emoji">😕</div>
+              </div>
+              <p>Мало клиентов</p>
+            </div>
+            <div class="analogy-arrow animate-item" data-delay="1">
+              <svg viewBox="0 0 40 24" width="40" height="24"><path d="M0,12 L30,12 M24,4 L34,12 L24,20" fill="none" stroke="#00B4FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="analogy-step animate-item" data-delay="2">
+              <div class="analogy-visual">
+                <div class="shop-sign sign-good">Ремонт iPhone<br>за 30 минут</div>
+                <div class="analogy-emoji">😊</div>
+              </div>
+              <p>Клиенты пошли</p>
+            </div>
+            <div class="analogy-arrow animate-item" data-delay="2">
+              <svg viewBox="0 0 40 24" width="40" height="24"><path d="M0,12 L30,12 M24,4 L34,12 L24,20" fill="none" stroke="#00B4FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="analogy-step step-question animate-item" data-delay="3">
+              <div class="analogy-visual">
+                <div class="shop-sign sign-question">300 магазинов<br>0 людей</div>
+                <div class="analogy-emoji">🤔</div>
+              </div>
+              <p>А кто будет тестировать?</p>
+            </div>
+          </div>
+          <div class="slide-conclusion animate-item">
+            <p>Нам нужен <span class="text-accent">робот</span>, который делает это автоматически</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==================== SLIDE 5: Solution - Concept ==================== -->
+      <div class="swiper-slide slide-concept">
+        <div class="slide-content">
+          <h2 class="slide-heading animate-item">Всё уже есть. Нужно только собрать.</h2>
+
+          <!-- Data sources -->
+          <div class="data-sources">
+            <div class="source-card animate-item" data-delay="1">
+              <div class="source-icon">
+                <svg viewBox="0 0 40 40" width="40" height="40"><rect x="4" y="4" width="32" height="32" rx="6" fill="none" stroke="#00B4FF" stroke-width="2"/><rect x="10" y="22" width="5" height="10" rx="1" fill="#00B4FF"/><rect x="18" y="16" width="5" height="16" rx="1" fill="#00B4FF" opacity="0.7"/><rect x="26" y="10" width="5" height="22" rx="1" fill="#00B4FF" opacity="0.4"/></svg>
+              </div>
+              <h4>Яндекс Метрика</h4>
+              <p>Поведение, конверсии, цели</p>
+            </div>
+            <div class="source-card animate-item" data-delay="2">
+              <div class="source-icon">
+                <svg viewBox="0 0 40 40" width="40" height="40"><circle cx="20" cy="18" r="10" fill="none" stroke="#00B4FF" stroke-width="2"/><line x1="27" y1="25" x2="34" y2="32" stroke="#00B4FF" stroke-width="2.5" stroke-linecap="round"/></svg>
+              </div>
+              <h4>Яндекс Вордстат</h4>
+              <p>Поисковые запросы, тренды</p>
+            </div>
+            <div class="source-card animate-item" data-delay="3">
+              <div class="source-icon">
+                <svg viewBox="0 0 40 40" width="40" height="40"><polygon points="20,4 36,14 36,30 20,36 4,30 4,14" fill="none" stroke="#00B4FF" stroke-width="2"/><circle cx="20" cy="20" r="5" fill="#00B4FF" opacity="0.5"/></svg>
+              </div>
+              <h4>Яндекс Директ</h4>
+              <p>Рекламные кампании, клики, стоимость</p>
+            </div>
+          </div>
+
+          <!-- Arrow down to AI -->
+          <div class="concept-arrow animate-item">
+            <svg viewBox="0 0 40 60" width="40" height="60"><path d="M20,5 L20,45 M12,37 L20,48 L28,37" fill="none" stroke="rgba(0,180,255,0.4)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+
+          <!-- AI Brain -->
+          <div class="ai-brain animate-item">
+            <div class="brain-pulse"></div>
+            <div class="brain-icon">
+              <svg viewBox="0 0 56 56" width="56" height="56"><path d="M28 8C18 8 10 16 10 26c0 6 3 11 7 14v6c0 1.5 1.5 3 3 3h16c1.5 0 3-1.5 3-3v-6c4-3 7-8 7-14 0-10-8-18-18-18z" fill="none" stroke="#00E676" stroke-width="2.5"/><line x1="20" y1="49" x2="36" y2="49" stroke="#00E676" stroke-width="2.5" stroke-linecap="round"/><path d="M22 26c0-3 2.5-6 6-6s6 3 6 6" fill="none" stroke="#00E676" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h4>Нейросеть (Claude AI)</h4>
+            <p>Анализирует все данные и адаптирует лендинг автоматически</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==================== SLIDE 6: Real Example ==================== -->
+      <div class="swiper-slide slide-example">
+        <div class="slide-content">
+          <h2 class="slide-heading animate-item">Реальный пример</h2>
+          <div class="comparison">
+            <div class="comparison-col col-before animate-item">
+              <div class="col-label label-before">БЫЛО</div>
+              <div class="example-card">
+                <div class="example-item">
+                  <span class="example-tag">Заголовок</span>
+                  <p>«Ремонт бытовой техники»</p>
+                </div>
+                <div class="example-item">
+                  <span class="example-tag">Фото</span>
+                  <p>Стоковое фото</p>
+                </div>
+                <div class="example-item">
+                  <span class="example-tag">Текст</span>
+                  <p>Общий текст</p>
+                </div>
+                <div class="conversion-badge badge-bad">
+                  Конверсия: <strong>2.1%</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="comparison-arrow animate-item">
+              <svg viewBox="0 0 60 40" width="60" height="40"><path d="M5,20 L45,20 M38,10 L50,20 L38,30" fill="none" stroke="#00B4FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>AI</span>
+            </div>
+
+            <div class="comparison-col col-after animate-item">
+              <div class="col-label label-after">СТАЛО</div>
+              <div class="example-card">
+                <div class="example-item">
+                  <span class="example-tag">Заголовок</span>
+                  <p>«Ремонт стиральных машин — мастер на дому за 1 час»</p>
+                </div>
+                <div class="example-item">
+                  <span class="example-tag">Фото</span>
+                  <p>Релевантное AI-изображение</p>
+                </div>
+                <div class="example-item">
+                  <span class="example-tag">Текст</span>
+                  <p>Текст из болей клиентов</p>
+                </div>
+                <div class="conversion-badge badge-good">
+                  Конверсия: <strong>4.8%</strong> <span class="conversion-growth">+128%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==================== SLIDE 6: Costs ==================== -->
+      <div class="swiper-slide slide-costs">
+        <div class="slide-content">
+          <h2 class="slide-heading animate-item">Сколько стоит и сколько времени</h2>
+          <div class="costs-grid">
+            <div class="costs-col animate-item">
+              <h3 class="costs-col-title">Затраты (ежемесячно)</h3>
+              <div class="cost-item">
+                <span class="cost-label">Серверы</span>
+                <span class="cost-value">15 000 — 30 000 ₽</span>
+              </div>
+              <div class="cost-item">
+                <span class="cost-label">AI-сервисы (Claude API)</span>
+                <span class="cost-value">5 000 — 15 000 ₽</span>
+              </div>
+              <div class="cost-divider"></div>
+              <div class="cost-item cost-total">
+                <span class="cost-label">Итого на старте</span>
+                <span class="cost-value">~30 000 — 50 000 ₽/мес</span>
+              </div>
+            </div>
+            <div class="costs-col animate-item">
+              <h3 class="costs-col-title">Сроки</h3>
+              <div class="cost-item">
+                <span class="cost-label">MVP (1 сайт)</span>
+                <span class="cost-value">2–3 месяца</span>
+              </div>
+              <div class="cost-item">
+                <span class="cost-label">Полная система</span>
+                <span class="cost-value">3–5 месяцев</span>
+              </div>
+              <div class="cost-item">
+                <span class="cost-label">Данные по сезонности</span>
+                <span class="cost-value">6–12 месяцев</span>
+              </div>
+            </div>
+          </div>
+          <div class="cost-highlight animate-item">
+            <div class="highlight-badge">
+              <span class="highlight-text">Стоимость одного маркетолога = система, обслуживающая <strong>ВСЕ 5000+ сайтов</strong></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==================== SLIDE 12: CTA ==================== -->
+      <div class="swiper-slide slide-cta">
+        <div class="slide-content">
+          <h2 class="slide-heading animate-item">AI-маркетолог на автопилоте</h2>
+          <div class="cta-points">
+            <div class="cta-point animate-item" data-delay="1">
+              <div class="cta-check">
+                <svg viewBox="0 0 32 32" width="32" height="32"><circle cx="16" cy="16" r="14" fill="none" stroke="#00E676" stroke-width="2.5"/><polyline points="10,16 14,21 22,11" fill="none" stroke="#00E676" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <p>Реклама дешевеет — трафик идёт на <span class="text-green">оптимизированные</span> страницы</p>
+            </div>
+            <div class="cta-point animate-item" data-delay="2">
+              <div class="cta-check">
+                <svg viewBox="0 0 32 32" width="32" height="32"><circle cx="16" cy="16" r="14" fill="none" stroke="#00E676" stroke-width="2.5"/><polyline points="10,16 14,21 22,11" fill="none" stroke="#00E676" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <p>Заявок больше — контент отвечает <span class="text-green">реальным запросам</span> людей</p>
+            </div>
+            <div class="cta-point animate-item" data-delay="3">
+              <div class="cta-check">
+                <svg viewBox="0 0 32 32" width="32" height="32"><circle cx="16" cy="16" r="14" fill="none" stroke="#00E676" stroke-width="2.5"/><polyline points="10,16 14,21 22,11" fill="none" stroke="#00E676" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <p>Людей не нужно — система работает <span class="text-green">автоматически 24/7</span></p>
+            </div>
+          </div>
+          <div class="cta-action animate-item">
+            <div class="cta-badge">Предлагаю запустить пилот на 1 сайте<br>и через 3 месяца показать MVP</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==================== SLIDE 8: Final statement ==================== -->
+      <div class="swiper-slide slide-final">
+        <div class="slide-content">
+          <div class="final-brand animate-item">Kefir <span class="text-accent">AI-CRO</span></div>
+          <p class="final-statement animate-item">Самоадаптирующийся лендинг, который сам формирует свой контент на основе реальных поисковых запросов людей — полноценный <span class="text-green">AI-маркетолог на автопилоте</span></p>
+          <div class="author animate-item">Цибин Андрей, веб-разработчик</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Navigation -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+  <!-- Progress bar -->
+  <div class="progress-bar">
+    <div class="progress-fill"></div>
+  </div>
+
+  <!-- Swiper.js (local) -->
+  <script src="vendor/swiper-bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
